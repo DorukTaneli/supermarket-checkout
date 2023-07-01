@@ -18,8 +18,8 @@ Main steps when using the API:
 
 1. Start a checkout and get checkoutid
 2. Set pricing rules
-2. Scan an arbitrary number of items
-3. Calculate the total price
+3. Scan an arbitrary number of items
+4. Calculate the total price
 
 ## Before first run
 - Ensure Docker desktop is installed.
