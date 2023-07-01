@@ -102,9 +102,9 @@ After running docker-compose, MongoDB database can be viewed by via Mongo Expres
   - If there is an error, the system returns HTTP 500. Error responses can be improved by using relevant HTTP Error codes.
 - Remaining CRUD operations
   - The endpoints only support the operations listed in how to use. Remaining CRUD operations can be added.
-- No security
+- Security
   - Everyone can make changes to the pricing/scan of a checkout if they know the checkoutID. There is no auth flow.
-- No unit testing
+- Unit testing
   - There is only integration test, no unit tests.
 - Documentation
   - Only checkoutService has JavaDoc documentation. 
